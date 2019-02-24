@@ -24,14 +24,14 @@ let movies = [
 export const getMovies = () => movies;
 
 export const getById = id => {
-    const filteredPeople = movies.filter(movie => movie.id === String(id));
+    const filteredPeople = movies.filter(movie => movie.id === id);
     return filteredPeople[0];
 };
 
-export const deleteMoview = id => {
-    const cleanedMovies = movies.filter(movie => movie.id !== String(id));
+export const deleteMovie = id => {
+    const cleanedMovies = movies.filter(movie => movie.id !== id);
     if(movies.length > cleanedMovies.length){
-        movie = cleanMovies;
+        movies = cleanedMovies;
         return true;
     } else {
         return false;
