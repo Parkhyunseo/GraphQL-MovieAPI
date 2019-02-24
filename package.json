@@ -1,0 +1,19 @@
+{
+  "name": "movieapi",
+  "version": "1.0.0",
+  "description": "my first graph-ql project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parkhyunseo/GraphQL-MoviewAPI.git"
+  },
+  "author": "Hyunseo Park <gustj960217@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Parkhyunseo/GraphQL-MoviewAPI/issues"
+  },
+  "homepage": "https://github.com/Parkhyunseo/GraphQL-MoviewAPI#readme"
+}
