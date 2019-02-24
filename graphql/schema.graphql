@@ -1,0 +1,8 @@
+type Hyunseo {
+    name: String!
+    age: Int!
+    gender: String!
+}
+type Query {
+    person: Hyunseo!
+}
