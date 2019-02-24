@@ -1,12 +1,9 @@
-const hyunseo = {
-    name: "Hyunseo",
-    age: 24,
-    gneder : "male"
-};
+import { people, getById } from "./db.js";
 
 const resolvers = {
     Query: {
-        person: () => hyunseo
+        people: () => people,
+        person: (id) => getById(id);
     }
 };
 
