@@ -1,4 +1,4 @@
-# GraphQL Moview API
+# GraphQL Movie API
 
 Clone Coidng
 
